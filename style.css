@@ -1,0 +1,181 @@
+body{
+    /* background-color: #36454F; */
+    color: white;
+    font-family: 'poppins',sans-serif;
+    /* padding: 0.5rem; */
+    margin: 0;
+    background-image: url("bg5.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main,header{
+    background-color: #0000006b;
+    
+}
+main{
+    height: 96.5vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: 0;
+}
+.bigcont{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+
+}
+.cont1{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.cont2 nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.cont2 nav a{
+    margin: 0rem 0.5rem ;
+}
+
+.cont2 nav a:hover{
+    transition: 0.4s ease-in-out ;
+    color: rgba(11, 226, 246, 0.699);
+}
+.grid1,.grid2,.grid3,.grid4{
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    margin: 0rem 0.2rem;
+}
+.cont3{
+    /* border: 2px solid yellow; */
+    padding-top: 3rem ;
+   
+}
+.subcont1{
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.subcont1 a img{
+    width: 20rem;
+    margin-left: 3rem;
+    border-radius: 100rem;
+    border:3px solid rgb(247, 82, 109);
+    
+}
+.intro h1{
+    display: grid;
+}
+
+.hi{
+    font-size: 4rem;
+}
+.myp{
+    font-size: 1.2rem;
+    color: white;
+}
+.frontend{
+    background: -webkit-linear-gradient(rgba(255, 30, 127, 0.974),white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.semiintro{
+    font-size: 1.5rem;
+    font-family: 'ubuntu',sans-serif;
+    
+}
+
+.contact {
+    font-size: 2rem;
+    display: flex;
+    /* border: 2px solid red; */
+    
+        
+
+}
+.contact i{
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+}
+.btn{
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
+    justify-items: center;
+    padding-left: 10rem;
+    
+}
+.btn-1{
+    background-color: royalblue;
+    padding:0.5rem ;
+    border-radius: 0.8rem;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+
+}
+.btn-1:hover{
+    cursor: pointer;
+    transition: 0.4s ease-in-out ;
+    background-color: darkblue;
+    text-shadow: 0px 0px 0px white;
+}
+.btn-2{
+    background-color: green;
+    padding:0.5rem ;
+    border-radius: 0.8rem;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+    margin-left: 0.5rem;
+
+}
+.btn-2:hover{
+    cursor: pointer;
+    transition: 0.4s ease-in-out ;
+    background-color: greenyellow;
+    text-shadow: 0px 0px 0px white;
+
+
+}
+
+.cont1 a .logo{
+    font-size:2rem;
+    padding-left: 0.9rem;
+
+
+    width: 60px;
+    
+}
+.cont1 a .logo:hover{
+    transition: 0.6s ease-in-out ;
+    color: aqua;
+    
+
+}
+.cont2 .grid1 a{
+    background: -webkit-linear-gradient(rgba(255, 30, 127, 0.974),white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact a i:hover{
+    color: aquamarine;
+}
